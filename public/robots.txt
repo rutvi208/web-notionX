@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://notionx.ai/
+
+# Sitemaps
+Sitemap: https://notionx.ai/sitemap.xml

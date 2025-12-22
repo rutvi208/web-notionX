@@ -1,0 +1,146 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0F0A08;
+  /* --cta: #FF4E18; */
+  --cta: #D84004;
+  --stroke: #E8D5CB;
+  --pastelbrown: #FDF8F5;
+  --mudbrown: #6E4C40;
+  /* --font-bricolage: 'Bricolage Grotesque', sans-serif;
+  --font-source-sans-pro: 'Source Sans 3', sans-serif; */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-bricolage), var(--font-source-sans-pro), sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.heading-font {
+  font-family: var(--font-bricolage);
+  letter-spacing: -0.047em;
+}
+
+.hero-font {
+  font-family: var(--font-bricolage);
+  letter-spacing: -0.15rem;
+}
+@media (min-width: 1024px) {
+  .hero-font {
+    letter-spacing: -0.3rem; /* apply only on large screens */
+  }
+}
+@media (min-width: 1200px) {
+  .hero-font {
+    letter-spacing: -0.43rem; /* apply only on large screens */
+  }
+}
+
+.subheading-font {
+  font-family: var(--font-bricolage);
+  letter-spacing: -0.23rem;
+}
+@media (min-width: 1024px) {
+  .subheading-font {
+    letter-spacing: -0.25rem; /* apply only on large screens */
+  }
+}
+@media (min-width: 1200px) {
+  .subheading-font {
+    letter-spacing: -0.28rem; /* apply only on large screens */
+  }
+}
+
+.content-font {
+  font-family: var(--font-source-sans-pro);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.custom-gradient {
+  background: 
+    radial-gradient(circle at top left, #FFF0E0 0%, #FCD0D4 20%, transparent 50%),
+    radial-gradient(circle at bottom right, #FFF0E0 0%, #FCD0D4 20%, transparent 50%),
+    white;
+}
+
+.bg-cta-gradient {
+  background:
+    radial-gradient(at top center, #FFF0E0 0%, #FFE7D1 40%, transparent 70%),
+    /* bottom-left yellow */
+    radial-gradient(at bottom left, #FFEAB2 0%, transparent 65%),
+
+    /* bottom-right yellow */
+    radial-gradient(at bottom right, #FFEAB2 0%, transparent 65%),
+
+    /* bottom-left pink */
+    radial-gradient(at bottom left, #F5CCBF 0%, transparent 70%),
+
+    /* bottom-right pink */
+    radial-gradient(at bottom right, #F5CCBF 0%, transparent 70%),
+
+    /* bottom center reinforcing pink glow */
+    radial-gradient(at bottom center, #F5CCBF 0%, transparent 70%);
+}
+
+/* Target only Safari/iOS */
+@supports (-webkit-touch-callout: none) {
+  img[data-nimg] {
+    color: inherit !important;
+    background-color: transparent !important; /* ensure no bg leaks */
+  }
+}
+
+summary {
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only:focus {
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 1rem;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background-color: white;
+  color: black;
+  outline: 2px solid #2563eb;
+}

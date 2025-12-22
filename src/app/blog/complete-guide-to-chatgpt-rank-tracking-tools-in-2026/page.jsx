@@ -1,7 +1,6 @@
 import Navbar from '@/app/components/Navbar';
 import Footer from '@/app/components/Footer';
 import { HiMiniShare, HiMiniArrowSmallRight } from "react-icons/hi2";
-import { AiOutlineLinkedin } from "react-icons/ai";
 import Link from "next/link";
 import Image from 'next/image';
 import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
@@ -294,7 +293,7 @@ const Blog3 = () => {
                         image={`${siteConfig.url}${siteConfig.paths.blogImages}/ManthanDesai_blogAuthor.webp`}
                     />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
-                        <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">Complete Guide to ChatGPT Rank Tracking Tools in 2026!</h1>
+                        <h1 className="heading-font px-2 text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">Complete Guide to ChatGPT Rank Tracking Tools in 2026!</h1>
                         <div className='flex flex-wrap justify-center items-center gap-3 sm:gap-5 mt-4 sm:mt-8 text-[#878483]'>
                             <h2 className='content-font text-xs whitespace-nowrap'>Manthan D.</h2>
                             <span className='text-2xl sm:text-3xl'> · </span>
@@ -308,16 +307,16 @@ const Blog3 = () => {
                             </div>
                         </div>
 
-                        {/* <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto my-8 sm:my-10 container'>
+                        <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto my-8 sm:my-10 container'>
                             
                             <div className="p-[1px] mx-4 sm:mx-0 overflow-hidden rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
                                 <div className="py-3 sm:py-5 px-4 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
                                     <p className="content-font text-lg sm:text-xl text-center">
-                                        Showing up in its responses can even greatly increase your visibility and trust. This shift calls for a new kind of SEO that goes beyond - keywords and backlinks. You need to combine traditional techniques with new strategies tailored for AI-driven search. This guide explores how to rank in ChatGPT search using the latest strategies in - SEO, GEO targeting, and AI optimization.
+                                        This guide explains key ChatGPT rank-tracking tool features. It helps find the best ChatGPT rank trackers. Learn how these trackers reveal - content visibility in AI-generated answers. Semrush shows how ChatGPT interprets your brand. Ahrefs Brand Radar tracks how LLMs visually present brands. Profound AI uncovers brand presence across AI search engines. Rankability tests prompts across answer engines. These tools clarify your visibility within conversational AI search. They enable optimization of content for AI-driven discovery. Finally, right rank trackers help you lead AI conversations.
                                     </p>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
 
                         <section className='mx-auto my-8 sm:my-10 container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
                             <Image 

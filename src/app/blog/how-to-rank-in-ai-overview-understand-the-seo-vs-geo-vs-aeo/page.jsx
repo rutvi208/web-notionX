@@ -290,7 +290,7 @@ const Blog4 = () => {
                             </div>
                         </div>
 
-                        {/* <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto my-8 sm:my-10 container'>
+                        <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto my-8 sm:my-10 container'>
 
                             <div className="p-[1px] mx-4 sm:mx-0 overflow-hidden rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
                                 <div className="py-3 sm:py-5 px-4 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
@@ -299,7 +299,7 @@ const Blog4 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
 
                         <section className='mx-auto my-8 sm:my-10 container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
                             <Image

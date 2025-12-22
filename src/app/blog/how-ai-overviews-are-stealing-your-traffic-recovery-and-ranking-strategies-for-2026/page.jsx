@@ -1,7 +1,6 @@
 import Navbar from '@/app/components/Navbar';
 import Footer from '@/app/components/Footer';
 import { HiMiniShare, HiMiniArrowSmallRight } from "react-icons/hi2";
-import { AiOutlineLinkedin } from "react-icons/ai";
 import BlackArrow from '@/../public/images/Blog-page/Black-Arrow.svg';
 import Link from "next/link";
 import Image from 'next/image';
@@ -294,7 +293,7 @@ const Blog5 = () => {
                         image={`${siteConfig.url}${siteConfig.paths.blogImages}/ManthanDesai_blogAuthor.webp`}
                     />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
-                        <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2026!</h1>
+                        <h1 className="heading-font px-2 text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2026!</h1>
                         <div className='flex flex-wrap justify-center items-center gap-3 sm:gap-5 mt-4 sm:mt-8 text-[#878483]'>
                             <h2 className='content-font text-xs whitespace-nowrap'>Manthan D.</h2>
                             <span className='text-2xl sm:text-3xl'> · </span>
@@ -308,16 +307,16 @@ const Blog5 = () => {
                             </div>
                         </div>
 
-                        {/* <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto my-8 sm:my-10 container'>
+                        <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto my-8 sm:my-10 container'>
 
                             <div className="p-[1px] mx-4 sm:mx-0 overflow-hidden rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
                                 <div className="py-3 sm:py-5 px-4 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
                                     <p className="content-font text-lg sm:text-xl text-center">
-                                        Showing up in its responses can even greatly increase your visibility and trust. This shift calls for a new kind of SEO that goes beyond - keywords and backlinks. You need to combine traditional techniques with new strategies tailored for AI-driven search. This guide explores how to rank in ChatGPT search using the latest strategies in - SEO, GEO targeting, and AI optimization.
+                                        This guide explains how AI Overviews reshape search. It shows how they drain - organic traffic. It uncovers why AI Overviews dominate results. It explains why - AI summaries are influential. Learn practical ways to beat AI Overviews. It covers technical SEO tactics for AI inclusion. It highlights local SEO strategies that protect rankings. Learn to monitor visibility inside AI Overviews. It shows how to - measure brand exposure across answer engines. The blog proves AI-first optimization creates a competitive edge.
                                     </p>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
 
                         <section className='mx-auto my-8 sm:my-10 container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
                             <Image

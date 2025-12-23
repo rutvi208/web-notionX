@@ -2,9 +2,8 @@
 import { useState } from 'react';
 import Image from "next/image";
 import Link from "next/link";
-import WhiteOutlineLogo from '@/../../public/images/Roadmap/White-Outline-logo.svg';
 import CampaignBg from '@/../../public/images/Roadmap/CampaignPage-Bg.webp';
-import CampaignNotionmindLogo from '@/../../public/images/logo/footer-logo.svg';
+import CampaignNotionXlogo from '@/../../public/images/Roadmap/Campaign-NotionX-logo.svg';
 import Ornaments from "@/../public/images/Roadmap/ornaments.svg";
 
 // Card data configuration
@@ -79,7 +78,7 @@ const RoadmapCard = ({ card, isDeployed, onDeploy, votes, index }) => {
     >
       <div className="flex flex-col h-full">
         {/* Noise Section */}
-        <div className='flex justify-between flex-row'>
+        <div className='flex justify-between items-start'>
           <div 
             className={`
               p-6 transition-opacity duration-300
@@ -92,7 +91,7 @@ const RoadmapCard = ({ card, isDeployed, onDeploy, votes, index }) => {
             <h3 className="text-xl lg:text-2xl font-semibold tracking-[0.02em] text-white lg:mt-2 mb-1 line-through opacity-80">{card.noise.title}</h3>
             <p className="text-base lg:text-lg text-white/70">{card.noise.description}</p>
           </div>
-          <div className="p-4">
+          <div className="px-4 pt-0 flex-shrink-0">
             <Image src={Ornaments} alt="ornaments" className='w-auto h-10' />
           </div>
         </div>
@@ -101,7 +100,7 @@ const RoadmapCard = ({ card, isDeployed, onDeploy, votes, index }) => {
         <div className="h-[1px] bg-gradient-to-r from-[#9C6D1A] via-[#E7B254] to-[#9C6D1A] mx-6"></div>
 
         {/* Signal Section */}
-        <div className="p-6 flex-grow flex flex-col justify-between">
+        <div className="p-4 sm:p-6 flex-grow flex flex-col justify-between">
           <div>
             <span className="inline-block drop-shadow-md font-semibold text-sm sm:text-base uppercase tracking-wider bg-gradient-to-br from-[#002102] via-[#135B41] to-[#002102] text-white px-3 py-[2px] rounded-full mb-2">
               Deploy (Signal)
@@ -114,7 +113,7 @@ const RoadmapCard = ({ card, isDeployed, onDeploy, votes, index }) => {
           <div className="flex items-center gap-3">
             <button
               className={`
-                flex items-center gap-2 py-2 px-5 rounded-full text-base md:text-lg font-semibold 
+                flex items-center gap-2 py-2 px-3 sm:px-5 rounded-full text-base md:text-lg font-semibold 
                 transition-all duration-200 hover:opacity-90
                 ${isDeployed 
                   ? 'bg-gradient-to-br from-[#002102] via-[#135B41] to-[#002102] text-white' 
@@ -183,8 +182,8 @@ const Roadmap2026 = () => {
         <div className='relative z-30 mx-auto'>
 
           {/* Hero Section */}
-          <section className="py-12 md:py-16 text-center mx-auto items-center flex flex-col">
-            <Image src={CampaignNotionmindLogo} alt="Campaign Notionmind Logo" className='h-10 sm:h-12 xl:h-16 w-auto mb-4 2xl:mb-10' />
+          <section className="py-12 lg:py-12 2xl:py-16 text-center mx-auto items-center flex flex-col">
+            <Image src={CampaignNotionXlogo} alt="Campaign Notionmind Logo" className='h-16 lg:h-20 2xl:h-24 w-auto mb-4 2xl:mb-10' />
             <div className="text-lg text-[#720014] mt-8 mb-4 bg-gradient-to-b from-[#E7B254] to-[#FAFAB2] py-2 px-4 rounded-xl sm:rounded-full">
               The 2026 Anti-Roadmap
             </div>
@@ -334,7 +333,7 @@ const Roadmap2026 = () => {
 
                   <div className='place-items-center'>
                     <p className='text-center text-sm text-gray-300'>
-                      By submitting this form, you agree to our Terms & Conditions.
+                      By submitting this form, you agree to our <Link href="/termsofuse" rel="noopener noreferrer" className="cursor-pointer hover:text-[var(--cta)]">Terms of Services.</Link>
                     </p>
                   </div>
                 </form>
@@ -345,6 +344,7 @@ const Roadmap2026 = () => {
           {/* Footer Note */}
           <div className="text-center text-sm py-8 px-6">
             {/* <div className="text-5xl sm:text-7xl xl:text-8xl mb-4 xl:mb-8">🎯📊🚀</div> */}
+            <div className="text-5xl sm:text-7xl xl:text-8xl mb-4 xl:mb-8">🎄⛄🎄</div>
             <p className='text-xl sm:text-2xl xl:text-3xl text-white'>
               From all of us at <Link href='https://notionx.ai/' className='hover:underline hover:text-[#E7B254]'>NotionX</Link> - Here's to clear thinking in 2026.
             </p>
@@ -353,11 +353,6 @@ const Roadmap2026 = () => {
                 <Link href='https://notionx.ai/' className='hover:underline hover:text-[#E7B254]'>NotionX</Link>
               </h2>
             </div>
-          </div>
-
-          {/* Footer Logo */}
-          <div className='mt-8 md:mt-12 flex justify-center'>
-            <Image src={WhiteOutlineLogo} alt="Notionmind logo" className='w-full h-full mx-2' />
           </div>
         </div>
       </div>

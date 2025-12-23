@@ -1,0 +1,31 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[[redirects]]
+  from = "/privacypolicy"
+  to = "/privacypolicy.html"
+  status = 200
+
+[[redirects]]
+  from = "/termsofuse"
+  to = "/termsofuse.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/*"
+  to = "/blog/:splat.html"
+  status = 200
+
+# Redirect .html versions to clean URLs (SEO - prevents duplicate content)
+[[redirects]]
+  from = "/privacypolicy.html"
+  to = "/privacypolicy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/termsofuse.html"
+  to = "/termsofuse"
+  status = 301
+  force = true

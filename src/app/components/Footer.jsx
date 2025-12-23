@@ -85,10 +85,10 @@ const Footer = () => {
                             {/* </div> */}
                             <nav className="flex flex-row md:justify-start" aria-label="Legal links">
                                 {/* <div className="border-r-[0.0625rem] border-r-white/40 pe-2 sm:pe-2 2xl:pe-4 cursor-pointer hover:text-[var(--cta)]"> */}
-                                    <Link href="/privacypolicy.html" rel="noopener noreferrer" className="border-r-[0.0625rem] border-r-white/40 pe-2 sm:pe-2 2xl:pe-4 cursor-pointer hover:text-[var(--cta)]">Privacy Policy</Link>
+                                    <Link href="/privacypolicy" rel="noopener noreferrer" className="border-r-[0.0625rem] border-r-white/40 pe-2 sm:pe-2 2xl:pe-4 cursor-pointer hover:text-[var(--cta)]">Privacy Policy</Link>
                                 {/* </div> */}
                                 {/* <div className="px-2 sm:px-2 2xl:px-4 cursor-pointer hover:text-[var(--cta)]"> */}
-                                    <Link href="/termsofuse.html" rel="noopener noreferrer" className="px-2 sm:px-2 2xl:px-4 cursor-pointer hover:text-[var(--cta)]">Terms of Services</Link>
+                                    <Link href="/termsofuse" rel="noopener noreferrer" className="px-2 sm:px-2 2xl:px-4 cursor-pointer hover:text-[var(--cta)]">Terms of Services</Link>
                                 {/* </div> */}
                             </nav>
                         </div>

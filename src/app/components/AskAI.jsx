@@ -5,7 +5,6 @@ import Image from "next/image";
 import ChatGPT from '@/../public/images/HeroSection/ChatGPT.svg';
 import Gemini from '@/../public/images/HeroSection/Gemini.png';
 import Perplexity from '@/../public/images/HeroSection/Perplexity.svg';
-//import Grok from '@/../public/images/HeroSection/Grok-logo.svg';
 import Claude from '@/../public/images/HeroSection/Claude-logo.svg';
 import Grok from '@/../public/images/HeroSection/Grok-logo.svg';
 
@@ -18,9 +17,10 @@ export default function AskAI() {
         
         const aiLinks = {
             chatgpt: `https://chat.openai.com/?q=${encodeURIComponent(promptText)}`,
+            gemini: `https://www.google.com/search?udm=50&aep=11&q=${encodeURIComponent(promptText)}`,
             claude: `https://claude.ai/new?q=${encodeURIComponent(promptText)}`,
-            //grok: `https://x.com/i/grok?q=${encodeURIComponent(promptText)}`,
-            perplexity: `https://www.perplexity.ai/?q=${encodeURIComponent(promptText)}`
+            perplexity: `https://www.perplexity.ai/?q=${encodeURIComponent(promptText)}`, 
+            grok: `https://x.com/i/grok?text=${encodeURIComponent(promptText)}`,
         };
         
         window.open(aiLinks[platform], '_blank', 'noopener,noreferrer');
@@ -48,9 +48,9 @@ export default function AskAI() {
                     <span>ChatGPT</span>
                 </button>
                 <button
-                    onClick={() => handleAIClick('claude')}
+                    onClick={() => handleAIClick('gemini')}
                     className="flex items-center gap-2 cursor-pointer"
-                    aria-label="Summarize this article with Claude"
+                    aria-label="Summarize this article with Gemini"
                 >
                     <Image src={Gemini} alt="Gemini Logo" className="h-6 w-6 lg:h-8 lg:w-8" />
                     <span>Gemini</span>
@@ -63,14 +63,6 @@ export default function AskAI() {
                     <Image src={Claude} alt="Claude Logo" className="h-6 w-6 lg:h-8 lg:w-8" />
                     <span>Claude</span>
                 </button>
-                {/* <button
-                    onClick={() => handleAIClick('grok')}
-                    className="flex items-center gap-2 cursor-pointer"
-                    aria-label="Summarize this article with Grok"
-                >
-                    <Image src={Grok} alt="ChatGPT Logo" className="h-6 w-6 lg:h-8 lg:w-8" />
-                    <span>Grok</span>
-                </button> */}
                 <button
                     onClick={() => handleAIClick('perplexity')}
                     className="flex items-center gap-2 cursor-pointer"
@@ -78,6 +70,14 @@ export default function AskAI() {
                 >
                     <Image src={Perplexity} alt="Perplexity Logo" className="h-6 w-6 lg:h-8 lg:w-8" />
                     <span>Perplexity</span>
+                </button>
+                <button
+                    onClick={() => handleAIClick('grok')}
+                    className="flex items-center gap-2 cursor-pointer"
+                    aria-label="Summarize this article with Grok"
+                >
+                    <Image src={Grok} alt="Grok Logo" className="h-6 w-6 lg:h-8 lg:w-8" />
+                    <span>Grok</span>
                 </button>
             </div>
             

@@ -9,6 +9,7 @@ import Link from "next/link";
 import ChatGPT from '@/../public/images/HeroSection/ChatGPT.svg';
 import Perplexity from '@/../public/images/HeroSection/Perplexity.svg';
 import Gemini from '@/../public/images/HeroSection/Gemini.png';
+import CampaignLink from '@/app/components/CampaignLink';
 
 const HeroSection = () => {
     return (
@@ -23,6 +24,7 @@ const HeroSection = () => {
                     className='absolute inset-0 object-cover h-full w-full'
                 />
                 <div className='absolute inset-0 z-10'>
+                    <CampaignLink/>
                     <Navbar />
 
                     {/* Hero Section */}

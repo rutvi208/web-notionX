@@ -9,6 +9,8 @@ import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
 import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
 import Blog4Thumbnail from '@/../public/images/Blog-page/Blog4-Thumbnail.webp';
 import Blog5Thumbnail from '@/../public/images/Blog-page/Blog5-Thumbnail.webp';
+import Blog6Thumbnail from '@/../public/images/Blog-page/Blog6-Thumbnail.webp';
+import Blog7Thumbnail from '@/../public/images/Blog-page/Blog7-Thumbnail.webp';
 import { siteConfig } from "@/app/config/site";
 import AuthorImage from '@/../public/images/Blog-page/ManthanDesai_blogAuthor.webp';
 // import dynamic from 'next/dynamic';
@@ -79,9 +81,9 @@ const blogPosts = [
   {
     id: 6,
     href: "blog/how-enterprises-are-transitioning-from-seo-to-geo?",
-    image: Blog5Thumbnail,
+    image: Blog6Thumbnail,
     title: "How Enterprises are Transitioning From SEO To GEO?",
-    desc: "How Enterprises are Transitioning From SEO To GEO?",
+    desc: "90% of businesses are anxious about SEO's future. Discover how enterprises are shifting from SEO to GEO as AI reshapes digital discovery.",
     date: "Dec 28, 2025",
     readTime: "7 mins read",
     dateISO: "2025-12-28",
@@ -91,9 +93,9 @@ const blogPosts = [
   {
     id: 7,
     href: "blog/how-to-swiftly-rank-on-perplexity-ai-key-geo-and-seo-tips",
-    image: Blog5Thumbnail,
+    image: Blog7Thumbnail,
     title: "How to Swiftly Rank on Perplexity AI: Key GEO and SEO Tips!",
-    desc: "How to Swiftly Rank on Perplexity AI: Key GEO and SEO Tips!",
+    desc: "Want to get cited by Perplexity AI? Discover key GEO tips and Perplexity SEO strategies to boost your visibility on AI-driven search platforms.",
     date: "Dec 28, 2025",
     readTime: "6 mins read",
     dateISO: "2025-12-28",

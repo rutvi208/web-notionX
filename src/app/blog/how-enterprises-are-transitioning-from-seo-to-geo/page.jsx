@@ -5,9 +5,9 @@ import BlackArrow from '@/../public/images/Blog-page/Black-Arrow.svg';
 import Link from "next/link";
 import Image from 'next/image';
 import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
-import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
+import Blog7Thumbnail from '@/../public/images/Blog-page/Blog7-Thumbnail.webp';
 import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
-import Blog6Banner from '@/../public/images/Blog-page/blog4-banner-seo-geo-aeo.webp';
+import Blog6Banner from '@/../public/images/Blog-page/blog6-banner-enterprises-are-transitioning.webp';
 import AuthorImage from '@/../public/images/Blog-page/ManthanDesai_blogAuthor.webp';
 import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
@@ -63,13 +63,13 @@ const blogPosts = [
   },
   {
     id: 3,
-    href: "complete-guide-to-chatgpt-rank-tracking-tools-in-2026",
-    image: Blog2Thumbnail,
-    title: "Complete Guide to ChatGPT Rank Tracking Tools in 2026!",
-    desc: "The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture.",
-    date: "Sep 25, 2025",
-    readTime: "8 mins read",
-    dateISO: "2025-09-25",
+    href: "blog/how-to-swiftly-rank-on-perplexity-ai-key-geo-and-seo-tips",
+    image: Blog7Thumbnail,
+    title: "How to Swiftly Rank on Perplexity AI: Key GEO and SEO Tips!",
+    desc: "Want to get cited by Perplexity AI? Discover key GEO tips and Perplexity SEO strategies to boost your visibility on AI-driven search platforms.",
+    date: "Dec 28, 2025",
+    readTime: "6 mins read",
+    dateISO: "2025-12-28",
     authorName: "Manthan D.",
     authorImage: AuthorImage,
   },

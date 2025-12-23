@@ -37,8 +37,6 @@ const Footer = () => {
                 <nav className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 justify-between mt-8" aria-label="Footer navigation">
                     <ul className="flex flex-col sm:flex-row gap-4 sm:gap-8 text-sm text-white font-semibold sm:items-center list-none">
                         <li>
-                        {/* <a href="#howitworks" className="text-xl hover:text-[var(--cta)]">How it works</a>
-                        <a href="#pricing" className="text-xl hover:text-[var(--cta)]">Pricing</a> */}
                             <a 
                                 href="#howitworks" 
                                 onClick={(e) => handleSectionClick(e, 'howitworks')}
@@ -80,16 +78,10 @@ const Footer = () => {
                     
                     <div>
                         <div className="text-white flex flex-col sm:flex-row space-y-4 sm:space-y-0 content-font sm:items-center text-sm">
-                            {/* <div className="pe-2 2xl:pe-4"> */}
                             <p className="pe-2 2xl:pe-4 2xl:text-base">© 2025 Knowtion, Inc. All rights reserved.</p>
-                            {/* </div> */}
                             <nav className="flex flex-row md:justify-start" aria-label="Legal links">
-                                {/* <div className="border-r-[0.0625rem] border-r-white/40 pe-2 sm:pe-2 2xl:pe-4 cursor-pointer hover:text-[var(--cta)]"> */}
-                                    <Link href="/privacypolicy" rel="noopener noreferrer" className="border-r-[0.0625rem] border-r-white/40 pe-2 sm:pe-2 2xl:pe-4 cursor-pointer hover:text-[var(--cta)]">Privacy Policy</Link>
-                                {/* </div> */}
-                                {/* <div className="px-2 sm:px-2 2xl:px-4 cursor-pointer hover:text-[var(--cta)]"> */}
-                                    <Link href="/termsofuse" rel="noopener noreferrer" className="px-2 sm:px-2 2xl:px-4 cursor-pointer hover:text-[var(--cta)]">Terms of Services</Link>
-                                {/* </div> */}
+                                <Link href="/privacypolicy" rel="noopener noreferrer" className="border-r-[0.0625rem] border-r-white/40 pe-2 sm:pe-2 2xl:pe-4 cursor-pointer hover:text-[var(--cta)]">Privacy Policy</Link>
+                                <Link href="/termsofuse" rel="noopener noreferrer" className="px-2 sm:px-2 2xl:px-4 cursor-pointer hover:text-[var(--cta)]">Terms of Services</Link>
                             </nav>
                         </div>
                     </div>

@@ -6,8 +6,8 @@ import Link from "next/link";
 import Image from 'next/image';
 import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
 import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
-import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
-import Blog7Banner from '@/../public/images/Blog-page/blog4-banner-seo-geo-aeo.webp';
+import Blog6Thumbnail from '@/../public/images/Blog-page/Blog6-Thumbnail.webp';
+import Blog7Banner from '@/../public/images/Blog-page/blog7-banner-rank-on-perplexity-ai.webp';
 import AuthorImage from '@/../public/images/Blog-page/ManthanDesai_blogAuthor.webp';
 import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
@@ -50,18 +50,6 @@ const blogPosts = [
   },
   {
     id: 2,
-    href: "best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
-    image: Blog3Thumbnail,
-    title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
-    desc: "With ChatGPT, Perplexity, and other AI search engines altering how people search, companies face a new contest. If AI-powered search cannot find your content - your brand does not exist. Traditional SEO tactics will not earn you a spot in AI-powered answers.",
-    date: "Oct 13, 2025",
-    readTime: "6 mins read",
-    dateISO: "2025-10-13",
-    authorName: "Manthan D.",
-    authorImage: AuthorImage,
-  },
-  {
-    id: 3,
     href: "complete-guide-to-chatgpt-rank-tracking-tools-in-2026",
     image: Blog2Thumbnail,
     title: "Complete Guide to ChatGPT Rank Tracking Tools in 2026!",
@@ -69,6 +57,18 @@ const blogPosts = [
     date: "Sep 25, 2025",
     readTime: "8 mins read",
     dateISO: "2025-09-25",
+    authorName: "Manthan D.",
+    authorImage: AuthorImage,
+  },
+  {
+    id: 3,
+    href: "blog/how-enterprises-are-transitioning-from-seo-to-geo?",
+    image: Blog6Thumbnail,
+    title: "How Enterprises are Transitioning From SEO To GEO?",
+    desc: "90% of businesses are anxious about SEO's future. Discover how enterprises are shifting from SEO to GEO as AI reshapes digital discovery.",
+    date: "Dec 28, 2025",
+    readTime: "7 mins read",
+    dateISO: "2025-12-28",
     authorName: "Manthan D.",
     authorImage: AuthorImage,
   },

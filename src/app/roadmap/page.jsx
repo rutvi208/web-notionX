@@ -5,7 +5,7 @@ import Link from "next/link";
 import WhiteOutlineLogo from '@/../../public/images/Roadmap/White-Outline-logo.svg';
 import CampaignBg from '@/../../public/images/Roadmap/CampaignPage-Bg.webp';
 import CampaignNotionmindLogo from '@/../../public/images/logo/footer-logo.svg';
-import Ornaments from '@/../../public/images/Roadmap/Ornaments.svg';
+import Ornaments from "@/../public/images/Roadmap/ornaments.svg";
 
 // Card data configuration
 const roadmapCards = [

@@ -216,7 +216,7 @@ const Roadmap2026 = () => {
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
         },
-        body: new URLSearchParams(submitData).toString(),
+        body: formBody,
       });
 
       if (response.ok) {

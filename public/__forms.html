@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NotionX Forms</title>
+</head>
+<body>
+  <!-- 
+    This hidden form is required for Netlify Forms to work with Next.js.
+    Netlify scans static HTML files at deploy time to detect forms.
+    The actual form submission happens via AJAX from the React component.
+  -->
+  
+  <!-- 2026 Manifesto Signup Form -->
+  <form name="manifesto-2026" netlify netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="manifesto-2026" />
+    <input type="hidden" name="bot-field" />
+    <input name="fullName" type="text" />
+    <input name="email" type="email" />
+    <input name="linkedinUrl" type="url" />
+    <input name="noiseToDelete" type="text" />
+    <input name="interestedInCall" type="checkbox" />
+    <input name="deployedFeatures" type="text" />
+  </form>
+</body>
+</html>

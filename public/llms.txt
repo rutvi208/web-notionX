@@ -4,10 +4,8 @@
 Sitemap: https://notionx.ai/sitemap.xml
 ## Key Pages
 Homepage: https://notionx.ai/
-About: https://notionx.ai/about
 Blog Index: https://notionx.ai/blog
 Case Studies: https://notionx.ai/case-studies
-Contact: https://notionx.ai/contact
 Privacy Policy: https://notionx.ai/privacypolicy
 Terms of Use: https://notionx.ai/termsofuse
 ## Important Blog Posts (AI SEO, GEO, Strategy)
@@ -16,6 +14,8 @@ Blog: https://notionx.ai/blog/complete-guide-to-chatgpt-rank-tracking-tools-in-2
 Blog: https://notionx.ai/blog/best-chatgpt-seo-agency-and-services-for-ai-search-ranking
 Blog: https://notionx.ai/blog/how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo
 Blog: https://notionx.ai/blog/how-ai-overviews-are-stealing-your-traffic-recovery-and-ranking-strategies-for-2026
+Blog: https://notionx.ai/blog/how-enterprises-are-transitioning-from-seo-to-geo
+Blog: https://notionx.ai/blog/how-to-swiftly-rank-on-perplexity-ai-key-geo-and-seo-tips
 ## Notes for AI Models
 - This file helps AI agents understand key sections of the website.
 - All pages are accessible for non-commercial crawling.

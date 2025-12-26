@@ -21,7 +21,7 @@ export default function AuditCTA() {
             </p>
             <Link
                 href="https://geo.notionx.ai/"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 className="btn btn-primary inline-block bg-[var(--cta)] text-white px-8 py-3 rounded-full font-bold hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105"
                 aria-label="Get your free AI visibility audit"
             >

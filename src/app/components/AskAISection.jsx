@@ -28,33 +28,50 @@ const AskAISection = () => {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@type": "WebApplication",
-            "name": "ChatGPT",
+            "@type": "WebPage",
+            "name": "Ask ChatGPT about NotionX",
             "url": "https://chat.openai.com/?q=Tell+me+about+NotionX.ai+and+their+AI+SEO+and+GEO+services.+What+services+do+they+offer+and+how+can+they+help+improve+my+brand+visibility+in+AI+search%3F+Please+include+their+website+link.",
-            "applicationCategory": "AI Assistant",
-            "operatingSystem": "Web Browser"
+            "description": "Start a ChatGPT conversation about NotionX AI SEO services"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@type": "WebApplication",
-            "name": "Claude",
-            "url": "https://claude.ai/new?q=Tell+me+about+NotionX.ai+and+their+AI+SEO+and+GEO+services.+What+services+do+they+offer+and+how+can+they+help+improve+my+brand+visibility+in+AI+search%3F+Please+include+their+website+link.",
-            "applicationCategory": "AI Assistant",
-            "operatingSystem": "Web Browser"
+            "@type": "WebPage",
+            "name": "Ask Gemini about NotionX",
+            "url": "https://www.google.com/search?udm=50&aep=11&q=Tell%20me%20about%20notionX.ai%20and%20their%20AI%20SEO%20and%20GEO%20services.%20What%20services%20do%20they%20offer%20and%20how%20can%20they%20help%20improve%20my%20brand%20visibility%20in%20AI%20search%3F%20Please%20include%20their%20website%20link.%0A%0A",
+            "description": "Start a Gemini conversation about NotionX AI SEO services"
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@type": "WebApplication",
-            "name": "Perplexity",
+            "@type": "WebPage",
+            "name": "Ask Claude about NotionX",
+            "url": "https://claude.ai/new?q=Tell+me+about+NotionX.ai+and+their+AI+SEO+and+GEO+services.+What+services+do+they+offer+and+how+can+they+help+improve+my+brand+visibility+in+AI+search%3F+Please+include+their+website+link.",
+            "description": "Start a Claude conversation about NotionX AI SEO services"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "WebPage",
+            "name": "Ask Perplexity about NotionX",
             "url": "https://www.perplexity.ai/search/new?q=Tell+me+about+NotionX.ai+and+their+AI+SEO+and+GEO+services.+What+services+do+they+offer+and+how+can+they+help+improve+my+brand+visibility+in+AI+search%3F+Please+include+their+website+link.",
-            "applicationCategory": "AI Search Engine",
-            "operatingSystem": "Web Browser"
+            "description": "Start a Perplexity conversation about NotionX AI SEO services"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "WebPage",
+            "name": "Ask Grok about NotionX",
+            "url": "https://x.com/i/grok?text=Tell%20me%20about%20notionX.ai%20and%20their%20AI%20SEO%20and%20GEO%20services.%20What%20services%20do%20they%20offer%20and%20how%20can%20they%20help%20improve%20my%20brand%20visibility%20in%20AI%20search%3F%20Please%20include%20their%20website%20link.",
+            "description": "Start a Grok conversation about NotionX AI SEO services"
           }
         }
       ]

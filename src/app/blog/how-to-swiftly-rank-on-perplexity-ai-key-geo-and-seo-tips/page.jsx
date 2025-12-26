@@ -62,7 +62,7 @@ const blogPosts = [
   },
   {
     id: 3,
-    href: "blog/how-enterprises-are-transitioning-from-seo-to-geo?",
+    href: "how-enterprises-are-transitioning-from-seo-to-geo",
     image: Blog6Thumbnail,
     title: "How Enterprises are Transitioning From SEO To GEO?",
     desc: "90% of businesses are anxious about SEO's future. Discover how enterprises are shifting from SEO to GEO as AI reshapes digital discovery.",

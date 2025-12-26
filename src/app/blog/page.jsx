@@ -17,13 +17,13 @@ import AskAISection from '@/app/components/AskAISection';
 
 // Blog posts data
 const blogPosts = [
-  { id: 1, href: "blog/how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide", image: Blog1Thumbnail, title: "How to Rank Your Website or Brand in ChatGPT : Latest Strategy Guide", desc: "In the age of AI-powered search, visibility in Chat GPT is becoming - as crucial as ranking on Google. With 700 million weekly users interacting with Chat GPT - brands and websites must adapt to this new paradigm.", date: "Sep 12, 2025", readTime: "6 mins read", dateISO: "2025-09-12", authorName: "Manthan D.", authorImage: AuthorImage },
-  { id: 2, href: "blog/complete-guide-to-chatgpt-rank-tracking-tools-in-2026", image: Blog2Thumbnail, title: "Complete Guide to ChatGPT Rank Tracking Tools in 2026!", desc: "The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture.", date: "Sep 25, 2025", readTime: "8 mins read", dateISO: "2025-09-25", authorName: "Manthan D.", authorImage: AuthorImage },
-  { id: 3, href: "blog/best-chatgpt-seo-agency-and-services-for-ai-search-ranking", image: Blog3Thumbnail, title: "Best ChatGPT SEO Agency & Services for AI Search Ranking", desc: "With ChatGPT, Perplexity, and other AI search engines altering how people search, companies face a new contest. If AI-powered search cannot find your content - your brand does not exist. Traditional SEO tactics will not earn you a spot in AI-powered answers.", date: "Oct 13, 2025", readTime: "6 mins read", dateISO: "2025-10-13", authorName: "Manthan D.", authorImage: AuthorImage },
-  { id: 4, href: "blog/how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo", image: Blog4Thumbnail, title: "How to Rank in AI Overview : Understand the SEO vs GEO vs AEO", desc: "What if the way we search the internet is transformed by 2025? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools.", date: "Oct 25, 2025", readTime: "7 mins read", dateISO: "2025-10-25", authorName: "Manthan D.", authorImage: AuthorImage },
-  { id: 5, href: "blog/how-ai-overviews-are-stealing-your-traffic-recovery-and-ranking-strategies-for-2026", image: Blog5Thumbnail, title: "How AI Overviews Are Stealing Your Traffic Recovery & Ranking Strategies for 2026", desc: "The digital marketing landscape is experiencing its biggest transformation. A new era of search results has been introduced in the three decades since the commencement of Google.", date: "Nov 18, 2025", readTime: "8 mins read", dateISO: "2025-11-18", authorName: "Manthan D.", authorImage: AuthorImage },
-  { id: 6, href: "blog/how-enterprises-are-transitioning-from-seo-to-geo?", image: Blog6Thumbnail, title: "How Enterprises are Transitioning From SEO To GEO?", desc: "90% of businesses are anxious about SEO's future. Discover how enterprises are shifting from SEO to GEO as AI reshapes digital discovery.", date: "Dec 28, 2025", readTime: "7 mins read", dateISO: "2025-12-28", authorName: "Manthan D.", authorImage: AuthorImage },
-  { id: 7, href: "blog/how-to-swiftly-rank-on-perplexity-ai-key-geo-and-seo-tips", image: Blog7Thumbnail, title: "How to Swiftly Rank on Perplexity AI: Key GEO and SEO Tips!", desc: "Want to get cited by Perplexity AI? Discover key GEO tips and Perplexity SEO strategies to boost your visibility on AI-driven search platforms.", date: "Dec 28, 2025", readTime: "6 mins read", dateISO: "2025-12-28", authorName: "Manthan D.", authorImage: AuthorImage },
+  { id: 1, href: "blog/how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide", image: Blog1Thumbnail, title: "How to Rank Your Website or Brand in ChatGPT : Latest Strategy Guide", desc: "In the age of AI-powered search, visibility in Chat GPT is becoming - as crucial as ranking on Google. With 700 million weekly users interacting with Chat GPT - brands and websites must adapt to this new paradigm.", date: "Sep 12, 2025", readTime: "6 mins read", dateISO: "2025-09-12T00:00:00+00:00", authorName: "Manthan D.", authorImage: AuthorImage },
+  { id: 2, href: "blog/complete-guide-to-chatgpt-rank-tracking-tools-in-2026", image: Blog2Thumbnail, title: "Complete Guide to ChatGPT Rank Tracking Tools in 2026!", desc: "The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture.", date: "Sep 25, 2025", readTime: "8 mins read", dateISO: "2025-09-25T00:00:00+00:00", authorName: "Manthan D.", authorImage: AuthorImage },
+  { id: 3, href: "blog/best-chatgpt-seo-agency-and-services-for-ai-search-ranking", image: Blog3Thumbnail, title: "Best ChatGPT SEO Agency & Services for AI Search Ranking", desc: "With ChatGPT, Perplexity, and other AI search engines altering how people search, companies face a new contest. If AI-powered search cannot find your content - your brand does not exist. Traditional SEO tactics will not earn you a spot in AI-powered answers.", date: "Oct 13, 2025", readTime: "6 mins read", dateISO: "2025-10-13T00:00:00+00:00", authorName: "Manthan D.", authorImage: AuthorImage },
+  { id: 4, href: "blog/how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo", image: Blog4Thumbnail, title: "How to Rank in AI Overview : Understand the SEO vs GEO vs AEO", desc: "What if the way we search the internet is transformed by 2025? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools.", date: "Oct 25, 2025", readTime: "7 mins read", dateISO: "2025-10-25T00:00:00+00:00", authorName: "Manthan D.", authorImage: AuthorImage },
+  { id: 5, href: "blog/how-ai-overviews-are-stealing-your-traffic-recovery-and-ranking-strategies-for-2026", image: Blog5Thumbnail, title: "How AI Overviews Are Stealing Your Traffic Recovery & Ranking Strategies for 2026", desc: "The digital marketing landscape is experiencing its biggest transformation. A new era of search results has been introduced in the three decades since the commencement of Google.", date: "Nov 18, 2025", readTime: "8 mins read", dateISO: "2025-11-18T00:00:00+00:00", authorName: "Manthan D.", authorImage: AuthorImage },
+  { id: 6, href: "blog/how-enterprises-are-transitioning-from-seo-to-geo", image: Blog6Thumbnail, title: "How Enterprises are Transitioning From SEO To GEO?", desc: "90% of businesses are anxious about SEO's future. Discover how enterprises are shifting from SEO to GEO as AI reshapes digital discovery.", date: "Dec 28, 2025", readTime: "7 mins read", dateISO: "2025-12-28T00:00:00+00:00", authorName: "Manthan D.", authorImage: AuthorImage },
+  { id: 7, href: "blog/how-to-swiftly-rank-on-perplexity-ai-key-geo-and-seo-tips", image: Blog7Thumbnail, title: "How to Swiftly Rank on Perplexity AI: Key GEO and SEO Tips!", desc: "Want to get cited by Perplexity AI? Discover key GEO tips and Perplexity SEO strategies to boost your visibility on AI-driven search platforms.", date: "Dec 28, 2025", readTime: "6 mins read", dateISO: "2025-12-28T00:00:00+00:00", authorName: "Manthan D.", authorImage: AuthorImage },
 ];
 
 const baseUrl = siteConfig.url;
@@ -63,8 +63,19 @@ const getSchema = () => ({
         itemListElement: blogPosts.map((post, i) => ({
           "@type": "ListItem",
           position: i + 1,
+           item: {
+          "@type": "BlogPosting",
+          "@id": `${baseUrl}/${post.href}#article`,
+          headline: post.title,
+          description: post.desc,
+          datePublished: post.dateISO,
           url: `${baseUrl}/${post.href}`,
-          name: post.title
+          image: `${baseUrl}${post.image.src}`,
+          author: {
+            "@type": "Person",
+            name: post.authorName
+          }
+        }
         }))
       },
       isPartOf: { "@id": `${baseUrl}/#website` },
@@ -89,29 +100,21 @@ const getSchema = () => ({
       headline: "The Future of Search Is Here",
       description: "Insights and strategies on AI SEO, GEO, and AI-powered brand discovery.",
       publisher: { "@id": `${baseUrl}/#organization` },
-      blogPost: blogPosts.map(p => ({
-        "@type": "BlogPosting",
-        headline: p.title,
-        description: p.desc,
-        datePublished: p.dateISO,
-        url: `${baseUrl}/${p.href}`,
-        image: { "@type": "ImageObject", url: `${baseUrl}${p.image.src}` },
-        author: { "@type": "Person", name: p.authorName },
-        publisher: { "@id": `${baseUrl}/#organization` },
-        inLanguage: "en-US"
-      }))
+      inLanguage: "en-US"
     }
   ]
 });
 
 // BlogCard component - visually identical to original
-const BlogCard = ({ blog, index, total }) => (
-  <article 
+const BlogCard = ({ blog, index, total }) => {
+  // Prioritize first 3 images to cover all viewport LCP scenarios
+  const isAboveFold = index < 3;
+
+  return (
+    <article 
     className="blog-card blog-card-gradient"
     aria-posinset={index + 1}
     aria-setsize={total}
-    itemScope
-    itemType="https://schema.org/BlogPosting"
   >
     <div className="flex flex-col gap-1 sm:gap-2 h-full items-stretch">
       {/* Image - matches original aspect ratio */}
@@ -124,10 +127,10 @@ const BlogCard = ({ blog, index, total }) => (
               width={700}
               height={280}
               sizes="(max-width: 768px) 100vw, 620px"
-              priority={index === 0}
+              priority={isAboveFold}
               fetchPriority={index === 0 ? "high" : "auto"}
               className="object-cover"
-              loading={index === 0 ? "eager" : "lazy"}
+              //loading={index === 0 ? "eager" : "lazy"}
             />
           </div>
         </Link>
@@ -180,7 +183,8 @@ const BlogCard = ({ blog, index, total }) => (
       </div>
     </div>
   </article>
-);
+  );
+}; 
 
 const KnowledgeHub = () => {
   return (

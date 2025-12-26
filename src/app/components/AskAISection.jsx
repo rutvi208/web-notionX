@@ -132,7 +132,7 @@ const AskAISection = () => {
                                 <a
                                     href={ai.url}
                                     target="_blank"
-                                    rel="noopener noreferrer nofollow"
+                                    rel="noopener noreferrer"
                                     className={`inline-flex items-center justify-center gap-3 rounded-full font-semibold text-base lg:text-lg`}
                                 >
                                     {/* <Icon className="w-5 h-5" /> */}

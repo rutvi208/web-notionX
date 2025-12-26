@@ -3,6 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   output: "export", // this enables `next export`
+  trailingSlash: false, 
   images: {
     unoptimized: true, // required for static export when using next/image
     qualities: [65],
